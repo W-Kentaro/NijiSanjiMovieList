@@ -1,0 +1,40 @@
+{
+  "name": "Nijisanji_Movie_list",
+  "version": "0.0.0",
+  "description": "Nijisanji Movie list",
+  "main": "./src/index.html",
+  "scripts": {
+    "start": "npm install && npm run develop",
+    "develop": "npm-run-all -p build:webpack server",
+    "server": "browser-sync start --server ./ --directory ./sample --files **/*.css **/*.js **/*.html",
+    "build:webpack": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "W-Kentaro",
+  "bugs": {},
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.23.6",
+    "npm-run-all": "^4.1.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  }
+}
