@@ -1,24 +1,33 @@
+const developPath = {
+  dev: `${__dirname}/develop/js/`,
+  output: `${__dirname}/src/js/`
+};
+
 const webpack = require('webpack');
+const path = require('path');
+const glob = require('glob');
+
+const scripts = glob.sync(`${developPath.dev}*.js`);
+
+const entries = {};
+scripts.forEach(value => {
+  const re = new RegExp(`${developPath.dev.replace(/\\/g, '/')}`);
+  const key = value.replace(re, '');
+  entries[key] = value;
+});
 
 const config = {
   mode: 'development',
-  entry: './develop/js/common.js',
+  entry: entries,
   output: {
-    path: `${__dirname}/src/js`,
-    filename: 'common.js',
-    libraryTarget: 'umd'
-  },
-  // Configuration for dev server
-  devServer: {
-    contentBase: __dirname + '/src/',
-    port: 3000,
-    inline: true,
-    open: true
+    path: developPath.output,
+    filename: '[name]'
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'babel-loader',

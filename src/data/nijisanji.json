@@ -1,202 +1,408 @@
-{
-  "items": [
-    {
-      "name": "月ノ美兎",
-      "channelId": "UCD-miitqNY3nyukJ4Fnf4_A",
-      "season": "first",
-      "twitter": "MitoTsukino"
-    },
-    {
-      "name": "勇気ちひろ",
-      "channelId": "UCLO9QDxVL4bnvRRsz6K4bsQ",
-      "season": "first",
-      "twitter": "Chihiro_yuki23"
-    },
-    {
-      "name": "える",
-      "channelId": "UCYKP16oMX9KKPbrNgo_Kgag",
-      "season": "first",
-      "twitter": "Elu_World"
-    },
-    {
-      "name": "樋口楓",
-      "channelId": "UCsg-YqdqQ-KFF0LNk23BY4A",
-      "season": "first",
-      "twitter": "HiguchiKaede"
-    },
-    {
-      "name": "静凛",
-      "channelId": "UC6oDys1BGgBsIC3WhG1BovQ",
-      "season": "first",
-      "twitter": "ShizuRin23"
-    },
-    {
-      "name": "渋谷ハジメ",
-      "channelId": "UCeK9HFcRZoTrvqcUCtccMoQ",
-      "season": "first",
-      "twitter": "sibuya_hajime"
-    },
-    {
-      "name": "鈴谷アキ",
-      "channelId": "UCt9qik4Z-_J-rj3bKKQCeHg",
-      "season": "first",
-      "twitter": "aki_suzuya"
-    },
-    {
-      "name": "モイラ",
-      "channelId": "UCvmppcdYf4HOv-tFQhHHJMA",
-      "season": "first",
-      "twitter": "Moiramoimoimoi"
-    },
-    {
-      "name": "剣持刀也",
-      "channelId": "UCv1fFr156jc65EMiLbaLImw",
-      "season": "second",
-      "twitter": "rei_Toya_rei"
-    },
-    {
-      "name": "​伏見ガク",
-      "channelId": "UCXU7YYxy_iQd3ulXyO-zC2w",
-      "season": "second",
-      "twitter": "gaku_fushimi"
-    },
-    {
-      "name": "ギルザレンⅢ世",
-      "channelId": "UCUzJ90o1EjqUbk2pBAy0_aw",
-      "season": "second",
-      "twitter": "Gilzaren_III"
-    },
-    {
-      "name": "文野環",
-      "channelId": "UCBiqkFJljoxAj10SoP2w2Cg",
-      "season": "second",
-      "twitter": "nekokan_chu"
-    },
-    {
-      "name": "宇志海いちご",
-      "channelId": "UCmUjjW5zF1MMOhYUwwwQv9Q",
-      "season": "second",
-      "twitter": "ushimi_ichigo"
-    },
-    {
-      "name": "夕陽リリ",
-      "channelId": "UC48jH1ul-6HOrcSSfoR02fQ",
-      "season": "second",
-      "twitter": "Yuuhi_Riri"
-    },
-    {
-      "name": "鈴鹿詩子",
-      "channelId": "UCwokZsOK_uEre70XayaFnzA",
-      "season": "second",
-      "twitter": "uzukautako"
-    },
-    {
-      "name": "物述有栖",
-      "channelId": "UCt0clH12Xk1-Ej5PXKGfdPA",
-      "season": "second",
-      "twitter": "AliceMononobe"
-    },
-    {
-      "name": "家長むぎ",
-      "channelId": "UC_GCs6GARLxEHxy1w40d6VQ",
-      "season": "second",
-      "twitter": "ienaga_mugi23"
-    },
-    {
-      "name": "森中花咲",
-      "channelId": "UCtpB6Bvhs1Um93ziEDACQ8g",
-      "season": "second",
-      "twitter": "kazakimorinaka"
-    },
-    {
-      "name": "叶",
-      "channelId": "UCspv01oxUFf_MTSipURRhkA",
-      "season": "gamers",
-      "twitter": "Kanae_2434"
-    },
-    {
-      "name": "赤羽葉子",
-      "channelId": "UCBi8YaVyZpiKWN3_Z0dCTfQ",
-      "season": "gamers",
-      "twitter": "Youko_Akabane"
-    },
-    {
-      "name": "ドーラ",
-      "channelId": "UC53UDnhAAYwvNO7j_2Ju1cQ",
-      "season": "seeds",
-      "twitter": "___Dola"
-    },
-    {
-      "name": "海夜叉神",
-      "channelId": "UCqEp6RdtsMbUNrCdCswr6pA",
-      "season": "seeds",
-      "twitter": "god_yaksa23"
-    },
-    {
-      "name": "名伽尾アズマ",
-      "channelId": "UCks41vQN-hN-1KHmpZyPY3A",
-      "season": "seeds",
-      "twitter": "azuma_dazo"
-    },
-    {
-      "name": "出雲　霞",
-      "channelId": "UCLpYMk5h1bq8_GAFVBgXhPQ",
-      "season": "seeds",
-      "twitter": "ikasumi_zzz"
-    },
-    {
-      "name": "轟京子",
-      "channelId": "UCRV9d6YCYIMUszK-83TwxVA",
-      "season": "seeds",
-      "twitter": "KT_seeds"
-    },
-    {
-      "name": "シスター・クレア",
-      "channelId": "UC1zFJrfEKvCixhsjNSb1toQ",
-      "season": "seeds",
-      "twitter": "sistercleaire"
-    },
-    {
-      "name": "花畑チャイカ",
-      "channelId": "UCsFn_ueskBkMCEyzCEqAOvg",
-      "season": "seeds",
-      "twitter": "ZulmIhP1nlMOT5y"
-    },
-    {
-      "name": "社築",
-      "channelId": "UCKMYISTJAQ8xTplUPHiABlA",
-      "season": "seeds",
-      "twitter": "846kizuQ"
-    },
-    {
-      "name": "緑仙",
-      "channelId": "UCt5-0i4AVHXaWJrL8Wql3mw",
-      "season": "seeds",
-      "twitter": "midori_2434"
-    },
-    {
-      "name": "漆黒の捕食者D.E",
-      "channelId": "UCaF-mODqAziHivqg0Q61XKQ",
-      "season": "seeds",
-      "twitter": "Darkness_Eater"
-    },
-    {
-      "name": "八朔ゆず",
-      "channelId": "UCFaDvgez8USXHiKidt0NtZg",
-      "season": "seeds",
-      "twitter": "839yuzu"
-    },
-    {
-      "name": "卯月コウ",
-      "channelId": "UC3lNFeJiTq6L3UWoz4g1e-A",
-      "season": "seeds",
-      "twitter": "udukikohh"
-    },
-    {
-      "name": "安土 桃",
-      "channelId": "UC6TfqY40Xt1Y0J-N18c85qQ",
-      "season": "seeds",
-      "twitter": "momo_aduchi"
-    }
-  ]
-}
+[
+  {
+    "no": "0",
+    "belong": "first",
+    "name ": "月ノ美兎",
+    "channelId": "UCD-miitqNY3nyukJ4Fnf4_A",
+    "twitter": "MitoTsukino"
+  },
+  {
+    "no": "1",
+    "belong": "first",
+    "name ": "勇気ちひろ",
+    "channelId": "UCLO9QDxVL4bnvRRsz6K4bsQ",
+    "twitter": "Chihiro_yuki23"
+  },
+  {
+    "no": "2",
+    "belong": "first",
+    "name ": "える",
+    "channelId": "UCYKP16oMX9KKPbrNgo_Kgag",
+    "twitter": "Elu_World"
+  },
+  {
+    "no": "3",
+    "belong": "first",
+    "name ": "樋口楓",
+    "channelId": "UCsg-YqdqQ-KFF0LNk23BY4A",
+    "twitter": "HiguchiKaede"
+  },
+  {
+    "no": "4",
+    "belong": "first",
+    "name ": "静凛",
+    "channelId": "UC6oDys1BGgBsIC3WhG1BovQ",
+    "twitter": "ShizuRin23"
+  },
+  {
+    "no": "5",
+    "belong": "first",
+    "name ": "渋谷ハジメ",
+    "channelId": "UCeK9HFcRZoTrvqcUCtccMoQ",
+    "twitter": "sibuya_hajime"
+  },
+  {
+    "no": "6",
+    "belong": "first",
+    "name ": "鈴谷アキ",
+    "channelId": "UCt9qik4Z-_J-rj3bKKQCeHg",
+    "twitter": "aki_suzuya"
+  },
+  {
+    "no": "7",
+    "belong": "first",
+    "name ": "モイラ",
+    "channelId": "UCvmppcdYf4HOv-tFQhHHJMA",
+    "twitter": "Moiramoimoimoi"
+  },
+  {
+    "no": "8",
+    "belong": "second",
+    "name ": "剣持刀也",
+    "channelId": "UCv1fFr156jc65EMiLbaLImw",
+    "twitter": "rei_Toya_rei"
+  },
+  {
+    "no": "9",
+    "belong": "second",
+    "name ": "​伏見ガク",
+    "channelId": "UCXU7YYxy_iQd3ulXyO-zC2w",
+    "twitter": "gaku_fushimi"
+  },
+  {
+    "no": "10",
+    "belong": "second",
+    "name ": "ギルザレンⅢ世",
+    "channelId": "UCUzJ90o1EjqUbk2pBAy0_aw",
+    "twitter": "Gilzaren_III"
+  },
+  {
+    "no": "11",
+    "belong": "second",
+    "name ": "文野環",
+    "channelId": "UCBiqkFJljoxAj10SoP2w2Cg",
+    "twitter": "nekokan_chu"
+  },
+  {
+    "no": "12",
+    "belong": "second",
+    "name ": "宇志海いちご",
+    "channelId": "UCmUjjW5zF1MMOhYUwwwQv9Q",
+    "twitter": "ushimi_ichigo"
+  },
+  {
+    "no": "13",
+    "belong": "second",
+    "name ": "夕陽リリ",
+    "channelId": "UC48jH1ul-6HOrcSSfoR02fQ",
+    "twitter": "Yuuhi_Riri"
+  },
+  {
+    "no": "14",
+    "belong": "second",
+    "name ": "鈴鹿詩子",
+    "channelId": "UCwokZsOK_uEre70XayaFnzA",
+    "twitter": "uzukautako"
+  },
+  {
+    "no": "15",
+    "belong": "second",
+    "name ": "物述有栖",
+    "channelId": "UCt0clH12Xk1-Ej5PXKGfdPA",
+    "twitter": "AliceMononobe"
+  },
+  {
+    "no": "16",
+    "belong": "second",
+    "name ": "家長むぎ",
+    "channelId": "UC_GCs6GARLxEHxy1w40d6VQ",
+    "twitter": "ienaga_mugi23"
+  },
+  {
+    "no": "17",
+    "belong": "second",
+    "name ": "森中花咲",
+    "channelId": "UCtpB6Bvhs1Um93ziEDACQ8g",
+    "twitter": "kazakimorinaka"
+  },
+  {
+    "no": "18",
+    "belong": "gamers",
+    "name ": "叶",
+    "channelId": "UCspv01oxUFf_MTSipURRhkA",
+    "twitter": "Kanae_2434"
+  },
+  {
+    "no": "19",
+    "belong": "gamers",
+    "name ": "赤羽葉子",
+    "channelId": "UCBi8YaVyZpiKWN3_Z0dCTfQ",
+    "twitter": "Youko_Akabane"
+  },
+  {
+    "no": "20",
+    "belong": "gamers",
+    "name ": "闇夜乃モルル",
+    "channelId": "UCNUgrFCo2Hr_VXc9bEwjcHQ",
+    "twitter": "_rnrrdark"
+  },
+  {
+    "no": "21",
+    "belong": "gamers",
+    "name ": "本間ひまわり",
+    "channelId": "UC0g1AE0DOjBYnLhkgoRWN1w",
+    "twitter": "honmahimawari"
+  },
+  {
+    "no": "22",
+    "belong": "gamers",
+    "name ": "魔界ノりりむ",
+    "channelId": "UC9EjSJ8pvxtvPdxLOElv73w",
+    "twitter": "makaino_ririmu"
+  },
+  {
+    "no": "23",
+    "belong": "gamers",
+    "name ": "葛葉",
+    "channelId": "UCSFCh5NL4qXrAy9u-u2lX3g",
+    "twitter": "Vamp_Kuzu"
+  },
+  {
+    "no": "24",
+    "belong": "gamers",
+    "name ": "雪汝",
+    "channelId": "UCfM_A7lE6LkGrzx6_mOtI4g",
+    "twitter": "setsuna2434"
+  },
+  {
+    "no": "25",
+    "belong": "gamers",
+    "name ": "椎名唯華",
+    "channelId": "UC_4tXjqecqox5Uc05ncxpxg",
+    "twitter": "yuika_siina"
+  },
+  {
+    "no": "26",
+    "belong": "seeds seeds-first",
+    "name ": "ドーラ",
+    "channelId": "UC53UDnhAAYwvNO7j_2Ju1cQ",
+    "twitter": "___Dola"
+  },
+  {
+    "no": "27",
+    "belong": "seeds seeds-first",
+    "name ": "海夜叉神",
+    "channelId": "UCqEp6RdtsMbUNrCdCswr6pA",
+    "twitter": "god_yaksa23"
+  },
+  {
+    "no": "28",
+    "belong": "seeds seeds-first",
+    "name ": "名伽尾アズマ",
+    "channelId": "UCks41vQN-hN-1KHmpZyPY3A",
+    "twitter": "azuma_dazo"
+  },
+  {
+    "no": "29",
+    "belong": "seeds seeds-first",
+    "name ": "出雲",
+    "channelId": "UCLpYMk5h1bq8_GAFVBgXhPQ",
+    "twitter": "ikasumi_zzz"
+  },
+  {
+    "no": "30",
+    "belong": "seeds seeds-first",
+    "name ": "轟京子",
+    "channelId": "UCRV9d6YCYIMUszK-83TwxVA",
+    "twitter": "KT_seeds"
+  },
+  {
+    "no": "31",
+    "belong": "seeds seeds-first",
+    "name ": "シスター",
+    "channelId": "UC1zFJrfEKvCixhsjNSb1toQ",
+    "twitter": "sistercleaire"
+  },
+  {
+    "no": "32",
+    "belong": "seeds seeds-first",
+    "name ": "花畑チャイカ",
+    "channelId": "UCsFn_ueskBkMCEyzCEqAOvg",
+    "twitter": "ZulmIhP1nlMOT5y"
+  },
+  {
+    "no": "33",
+    "belong": "seeds seeds-first",
+    "name ": "社築",
+    "channelId": "UCKMYISTJAQ8xTplUPHiABlA",
+    "twitter": "846kizuQ"
+  },
+  {
+    "no": "34",
+    "belong": "seeds seeds-first",
+    "name ": "緑仙",
+    "channelId": "UCt5-0i4AVHXaWJrL8Wql3mw",
+    "twitter": "midori_2434"
+  },
+  {
+    "no": "35",
+    "belong": "seeds seeds-first",
+    "name ": "漆黒の捕食者D",
+    "channelId": "UCaF-mODqAziHivqg0Q61XKQ",
+    "twitter": "Darkness_Eater"
+  },
+  {
+    "no": "36",
+    "belong": "seeds seeds-first",
+    "name ": "八朔ゆず",
+    "channelId": "UCFaDvgez8USXHiKidt0NtZg",
+    "twitter": "839yuzu"
+  },
+  {
+    "no": "37",
+    "belong": "seeds seeds-first",
+    "name ": "卯月コウ",
+    "channelId": "UC3lNFeJiTq6L3UWoz4g1e-A",
+    "twitter": "udukikohh"
+  },
+  {
+    "no": "38",
+    "belong": "seeds seeds-first",
+    "name ": "安土",
+    "channelId": "UC6TfqY40Xt1Y0J-N18c85qQ",
+    "twitter": "momo_aduchi"
+  },
+  {
+    "no": "39",
+    "belong": "seeds seeds-second",
+    "name ": "神田笑一",
+    "channelId": "UCWz0CSYCxf4MhRKPDm220AQ",
+    "twitter": "Kanda_Shoichi"
+  },
+  {
+    "no": "40",
+    "belong": "seeds seeds-second",
+    "name ": "鳴門こがね",
+    "channelId": "UCF1JdALrXgub24weQpqDy9Q",
+    "twitter": "nArUtO_kOgAnE"
+  },
+  {
+    "no": "41",
+    "belong": "seeds seeds-second",
+    "name ": "飛鳥ひな",
+    "channelId": "UCiSRx1a2k-0tOg-fs6gAolQ",
+    "twitter": "hina__asuka"
+  },
+  {
+    "no": "42",
+    "belong": "seeds seeds-second",
+    "name ": "春崎エアル",
+    "channelId": "UCtAvQ5U0aXyKwm2i4GqFgJg",
+    "twitter": "harusakiair2434"
+  },
+  {
+    "no": "43",
+    "belong": "seeds seeds-second",
+    "name ": "雨森小夜",
+    "channelId": "UCRWOdwLRsenx2jLaiCAIU4A",
+    "twitter": "Sayo_Amemori"
+  },
+  {
+    "no": "44",
+    "belong": "seeds seeds-second",
+    "name ": "鷹宮リオン",
+    "channelId": "UCV5ZZlLjk5MKGg3L0n0vbzw",
+    "twitter": "TakamiyaRion"
+  },
+  {
+    "no": "45",
+    "belong": "seeds seeds-second",
+    "name ": "舞元啓介",
+    "channelId": "UCJubINhCcFXlsBwnHp0wl_g",
+    "twitter": "maimoto_k"
+  },
+  {
+    "no": "46",
+    "belong": "seeds seeds-second",
+    "name ": "竜胆尊",
+    "channelId": "UCPvGypSgfDkVe7JG2KygK7A",
+    "twitter": "RindouMikoto"
+  },
+  {
+    "no": "47",
+    "belong": "seeds seeds-second",
+    "name ": "でびでび・でびる",
+    "channelId": "UCP19rQ5V-46B-6ZeLDJqp5w",
+    "twitter": "debidebiru_sama"
+  },
+  {
+    "no": "48",
+    "belong": "seeds seeds-second",
+    "name ": "桜凛月",
+    "channelId": "UCfQVs_KuXeNAlGa3fb8rlnQ",
+    "twitter": "SAKURA_RITSUKI"
+  },
+  {
+    "no": "49",
+    "belong": "seeds seeds-second",
+    "name ": "町田ちま",
+    "channelId": "UCo7TRj3cS-f_1D9ZDmuTsjw",
+    "twitter": "chima_machita23"
+  },
+  {
+    "no": "50",
+    "belong": "seeds seeds-second",
+    "name ": "月見しずく",
+    "channelId": "UCqQV8xEBWd5SVZBLlYrS_5Q",
+    "twitter": "tukimi_sizuku"
+  },
+  {
+    "no": "51",
+    "belong": "seeds seeds-second",
+    "name ": "ジョー・力一",
+    "channelId": "UChUJbHiTVeGrSkTdBzVfNCQ",
+    "twitter": "JoeRikiichi"
+  },
+  {
+    "no": "52",
+    "belong": "seeds seeds-second",
+    "name ": "遠北千南",
+    "channelId": "UCuz0vzQgC8LRdS6lVV0UkUg",
+    "twitter": "ac1kt"
+  },
+  {
+    "no": "53",
+    "belong": "seeds seeds-second",
+    "name ": "成瀬鳴",
+    "channelId": "UCoM_XmK45j504hfUWvN06Qg",
+    "twitter": "narusenaru_2434"
+  },
+  {
+    "no": "54",
+    "belong": "seeds seeds-second",
+    "name ": "ベルモンド・バンデラス",
+    "channelId": "UCbc8fwhdUNlqi-J99ISYu4A",
+    "twitter": "belmond_b_2434"
+  },
+  {
+    "no": "55",
+    "belong": "seeds seeds-second",
+    "name ": "矢車りね",
+    "channelId": "UCvzVB-EYuHFXHZrObB8a_Og",
+    "twitter": "Rine_Yaguruma"
+  },
+  {
+    "no": "56",
+    "belong": "seeds seeds-second",
+    "name ": "夢追翔",
+    "channelId": "UCTIE7LM5X15NVugV7Krp9Hw",
+    "twitter": "kakeru_yumeoi"
+  },
+  {
+    "no": "57",
+    "belong": "seeds seeds-second",
+    "name ": "黒井しば",
+    "channelId": "UCmeyo5pRj_6PXG-CsGUuWWg",
+    "twitter": "BlackShiba_chan"
+  }
+]

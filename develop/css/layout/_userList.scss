@@ -1,0 +1,85 @@
+.l-app{
+  &__container{
+    display: flex;
+    flex-direction: row;
+    @include sp{
+
+    }
+  }
+}
+
+.l-side{
+  flex-basis: 0;
+  flex-grow: 1;
+  background: #fff;
+  @include sp{
+    display: none;
+  }
+}
+
+.l-userList{
+  width: 90vw;
+  background: #fff;
+  @include sp{
+    width: 100%;
+  }
+}
+
+.p-userList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  li{
+    width: calc(100% / 4);
+    cursor: pointer;
+    @include sp{
+      width: calc(100% / 3);
+    }
+  }
+}
+
+.p-card{
+  $this: #{&};
+  width: 100%;
+  position: relative;
+  transition: all .65s cubic-bezier(0.215, 0.61, 0.355, 1) .6s;
+  &.is-open{
+    margin-bottom: 200%;
+    transition: all .65s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  &__inner{
+    $self: #{&};
+    position: relative;
+    &--img{
+      @extend #{$self};
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+      overflow: hidden;
+    }
+    &--data{
+      @extend #{$self};
+      position: absolute;
+      width: 90vw;
+      padding-bottom: 200%;
+      #{$this}.is-open &{
+
+      }
+    }
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .65s cubic-bezier(0.215, 0.61, 0.355, 1);
+    @include pc{
+      #{$this}:hover &{
+        transform: scale(1.1);
+        filter: blur(5px) saturate(150%);
+      }
+    }
+  }
+}

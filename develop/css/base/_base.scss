@@ -1,0 +1,80 @@
+@import "html5reset";
+
+html{
+  width: 100%;
+  overflow-y: scroll;
+}
+
+body{
+  width: 100%;
+}
+
+@include pc{
+  .is-pc{
+    display: block;
+  }
+  .is-sp{
+    display: none !important;
+  }
+  .is-pc-inline{
+    display: inline-block;
+  }
+  .is-sp-inline{
+    display: none !important;
+  }
+  .pc{
+    display: block;
+  }
+  .sp{
+    display: none !important;
+  }
+  .pc-inline{
+    display: inline-block;
+  }
+  .sp-inline{
+    display: none !important;
+  }
+}
+
+@include sp{
+  .is-sp{
+    display: block;
+  }
+  .is-pc{
+    display: none !important;
+  }
+  .is-sp-inline{
+    display: inline-block;
+  }
+  .is-p-inline{
+    display: none !important;
+  }
+  .sp{
+    display: block;
+  }
+  .pc{
+    display: none !important;
+  }
+  .sp-inline{
+    display: inline-block;
+  }
+  .p-inline{
+    display: none !important;
+  }
+}
+
+// Style Image Fit
+img{
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+.js-modal__open{
+  cursor: pointer;
+}

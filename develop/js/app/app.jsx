@@ -18,11 +18,11 @@ class App extends React.Component{
       counter: 0,
       api: {
         key: '',
-        data: []
+        data: [],
+        dataLength: null
       },
-      userData: []
+      userData: {}
     };
-    this.toggleClass = this.toggleClass.bind(this);
   }
 
   // get youtube api
@@ -47,45 +47,61 @@ class App extends React.Component{
       .get(vTuber_json)
       .then((results) => {
         const data = results.data;
-        const dataLength = data.items.length;
-        for(let i = 0; i < data.items.length; i++){
-          this.getChannelData(data.items[i].channelId, i, dataLength);
+        this.setState(prevState => {
+          return {
+            dataLength: data.length
+          }
+        });
+        for(let i = 0; i < data.length; i++){
+          this.getChannelData(i, data[i].channelId, data[i].belong);
         }
       });
   }
 
   // get channel data
-  getChannelData(channelId, num, length) {
+  getChannelData(num, channelId, belong) {
 
-    const maxCount = length;
     axios
       .get(youtubeChannelApi.snippet + channelId + '&key=' + this.state.api.key)
       .then((results) => {
-        const data = results.data;
-        if(num === 0){
-          this.setState({
-            userData: [data]
+        const data = {
+          no: num,
+          belong: belong,
+          value: results.data
+        };
+        if(this.state.counter === 0){
+          this.setState(prevState => {
+            return {
+              userData: [data]
+            }
           });
           this.state.counter++;
         }
         else{
-          this.setState({
-            userData: [...this.state.userData, data]
+          this.setState(prevState => {
+            return {
+              userData: [...prevState.userData, data]
+            }
           });
           this.state.counter++;
-          if(this.state.counter === maxCount){
+          if(this.state.counter === this.state.dataLength){
+            this.setState(prevState => {
+              this.userData = prevState.userData.sort((a, b) => {
+                return (a.no < b.no) ? -1 : 1;
+              });
+            });
             this.setState({isMounted: true});
           }
         }
       });
   }
-
-  toggleClass() {
-    this.setState({
-      isActive: !this.state.isActive
+  componentWillMount() {
+    this.setState(prevState => {
+      return {
+        isActive: !prevState.isActive
+      }
     });
   }
-
   componentDidMount() {
     this.getApiJson();
   }
@@ -93,15 +109,25 @@ class App extends React.Component{
   render() {
     if(this.state.isMounted === false){
       return (
-        <div className={this.state.isActive ? 'wrap is-active' : 'wrap'}>
+        <div className={this.state.isActive ? 'l-app is-active' : 'l-app'}>
           <p>Now Loading...</p>
         </div>
       )
     }
     else{
       return (
-        <div className={this.state.isActive ? 'wrap is-active' : 'wrap'}>
-          <UserList userData={this.state.userData} isMounted={this.state.isMounted}/>
+        <div className={this.state.isActive ? 'l-app is-active' : 'l-app'}>
+          <div className="l-app__container">
+            <section className="l-side">
+              <div className="l-side__container">
+                <div className="l-side__header"></div>
+                <div className="l-side__inner"></div>
+              </div>
+            </section>
+            <section className="l-userList">
+              <UserList userData={this.state.userData} isMounted={this.state.isMounted}/>
+            </section>
+          </div>
         </div>
       )
     }
